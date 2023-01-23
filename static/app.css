@@ -1,0 +1,378 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    font-family: 'Poiret One', cursive;
+    scroll-behavior: smooth;
+}
+
+.flexc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fbreak {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.noscroll {
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* scroll */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/*  */
+
+
+
+.wrapper {
+    /* position: relative; */
+    background: #fff;
+    background: url("./assests/sea_bg.jpeg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.loader_con {
+    /* display: none; */
+    position: absolute;
+    background: #ffffff;
+    width: 900px;
+    height: 500px;
+
+    z-index: 99999;
+
+    backdrop-filter: blur(50px);
+
+    transition: all 0.5s ease-in-out;
+    animation: mainloader 5s linear;
+}
+
+.loader {
+    background: url("./assests/scapper_logo.png") no-repeat center;
+    background-size: contain;
+    width: 500px;
+    height: 100%;
+
+}
+
+/* #close {
+    visibility: hidden;
+    animation: zoom 6s;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(0)
+    }
+} */
+
+
+/* loader animation */
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+
+    transform: translate(-50%, 50%);
+}
+
+.lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #000000;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(24px, 0);
+    }
+}
+
+/*  */
+
+
+
+
+
+.main_container {
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #9393939e;
+    background: url("./assests/sea_bg.jpeg") no-repeat;
+    background-size: cover;
+
+    width: 900px;
+    height: 500px;
+
+    border-radius: 5px;
+    box-shadow: 0 0 10px #49494b82;
+
+    /* border: 2px #000000 solid; */
+
+}
+
+.main_con_sec1 {
+    background: url("./assests/scapper_logo.png") no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+
+    /* border: 1px #000000 solid;
+    border-right: none; */
+    border-radius: 5px 0 0 5px;
+}
+
+
+
+.main_con_sec2 {
+    background: #0000005e;
+    width: calc(100% - 500px);
+    height: 100%;
+    padding: 20px 30px;
+    color: #ffffff;
+
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 0 5px 5px 0;
+}
+
+h1 {
+    /* text-align: center; */
+    width: 100%;
+
+    font-size: 20px;
+}
+
+.data_input_con {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.data_input_sec1 {
+    width: 240px;
+    /* border: 1px red solid; */
+}
+
+.data_input_sec2 {
+    width: calc(100% - 260px);
+}
+
+.data_input_sec3 {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input_label {
+    font-size: 18px;
+}
+
+.input_box>input {
+    background: #ffffff;
+    width: 100%;
+    height: 35px;
+    margin-top: 15px;
+    padding: 5px 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #939393;
+
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #49494b82;
+}
+
+.scrap_btn {
+    background: #ffffff;
+    width: 100%;
+    /* height: ; */
+    margin-top: 25px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 600;
+
+    border-radius: 5px;
+    border-radius: 5px;
+
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.scrap_btn:hover {
+    background: #f1f1f1;
+    /* transform: scale(1.05); */
+}
+
+.prompt_con {
+    position: relative;
+
+    background: #ffffff;
+    width: 100%;
+    height: calc(100% - 305px);
+    margin-top: 30px;
+
+    overflow-wrap: anywhere;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.prompt_text {
+    background: #f1f1f1;
+    color: #000000;
+    padding: 8px;
+
+    border-radius: 5px 5px 0 0;
+}
+
+.prompt_content {
+    height: calc(100% - 34px);
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 20px;
+    box-shadow: inset 0 0 5px #49494b82;
+    border-radius: 0 0 5px 5px;
+
+    overflow-y: auto;
+}
+
+.downloading_loader_con {
+    position: absolute;
+    top: 33px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+}
+
+.downloading_loader {
+    position: absolute;
+    top: 0;
+    left: -10%;
+    background: #000000;
+
+    width: 10%;
+    height: 100%;
+    border-radius: 5px;
+
+    transition: all 0.2 ease-in-out;
+}
+
+
+.dwnLoader_active {
+    animation: mymove 5s infinite;
+}
+
+
+@keyframes mymove {
+    0% {
+        left: -10%;
+    }
+
+    50% {
+        left: 100%;
+    }
+
+    100% {
+        left: -10%;
+    }
+}

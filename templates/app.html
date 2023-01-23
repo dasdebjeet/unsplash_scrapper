@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unsplash Scrapper</title>
+
+
+        <link rel="icon" type="image/x-icon" href="../static/assests/favicon.ico">
+
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/76c40a5f57.js" crossorigin="anonymous"></script>
+        <link href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css" rel=" stylesheet">
+
+
+        <!-- css -->
+        <link rel="stylesheet" href="../static/app.css">
+
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="../static/app.js"></script>
+
+
+
+    </head>
+
+    <body>
+        <div class="wrapper flexc">
+
+
+            <div class="main_container flexc">
+                <div class="main_con_sec1"></div>
+                <div class="main_con_sec2">
+                    <h1>Scrap Image</h1>
+
+                    <div class="data_input_con flexc">
+                        <div class="data_input_sec1">
+                            <div class="input_label">Image Name</div>
+                            <div class="input_box"><input class="image_inp" type="text" name="" id=""></div>
+                        </div>
+                        <div class="data_input_sec2">
+                            <div class="input_label">Number</div>
+                            <div class="input_box"><input class="image_num_inp" type="number" min="1" name="" id=""></div>
+                        </div>
+                        <div class="data_input_sec3">
+                            <div class="input_label">Select Destination Path</div>
+                            <div class="input_box"><input class="image_folder_destination_inp" type="text" name="" id="" placeholder="Ex: C:\Users\folder\ (optional) "></div>
+                        </div>
+                    </div>
+
+                    <button class="scrap_btn">Scrap</button>
+
+                    <div class="prompt_con">
+                        <div class="prompt_text">Prompt</div>
+                        <div class="prompt_content" id="prompt">
+                            <!-- <p>Connecting...<br>
+                                Connected to Unsplash<br>
+
+                                Scrapping images of india...<br>
+                                Sucessfully scrapped images!<br>
+                                Creating: india images folder..<br>
+                                Error: Folder already exists indiaimages folder<br>
+                                Deleted folder... 🗑️<br>
+                                Downloaded: india-img_1.png<br>
+                                Downloaded: india-img_2.png<br>
+                                Downloaded: india-img_3.png<br>
+                                Downloaded: india-img_4.png<br>
+                                Downloaded: india-img_5.png<br>
+
+
+                                DONE...!
+                            </p> -->
+                        </div>
+                        <div class="downloading_loader_con">
+                            <div class="downloading_loader"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="loader_con flexc" id="close">
+                    <div class="loader">
+                        <div class="lds-ellipsis">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </body>
+
+</html>
