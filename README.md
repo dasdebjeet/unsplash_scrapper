@@ -54,11 +54,11 @@ After opening the Unsplash Scrapper
 ***Note:*** **The default download folder will of the Download folder of your Desktop or Laptop**
 
 <br>
-<video controls><source src="[Unsplash Scrapper.mp4](https://user-images.githubusercontent.com/59967380/214108512-037eef0b-873c-41b2-bc33-3be3b13f52e0.mp4)" type="video/mp4"></video>
+
+[![Unsplash Scrapper Demo](https://raw.githubusercontent.com/dasdebjeet/unsplash_scrapper/main/static/assests/banner_scapper_logo.png?token=GHSAT0AAAAAABVUUNRO2SYW35ELAYREYOGSY6OJR5A)](https://user-images.githubusercontent.com/59967380/214108512-037eef0b-873c-41b2-bc33-3be3b13f52e0.mp4)
+
 <br>
 
-
-https://user-images.githubusercontent.com/59967380/214108512-037eef0b-873c-41b2-bc33-3be3b13f52e0.mp4
 
 
  *Happy Scrapping...!*
