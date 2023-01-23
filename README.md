@@ -55,7 +55,7 @@ After opening the Unsplash Scrapper
 
 <br>
 
-[![Unsplash Scrapper Demo](https://raw.githubusercontent.com/dasdebjeet/unsplash_scrapper/main/static/assests/banner_scapper_logo.png?token=GHSAT0AAAAAABVUUNRO2SYW35ELAYREYOGSY6OJR5A)](https://user-images.githubusercontent.com/59967380/214108512-037eef0b-873c-41b2-bc33-3be3b13f52e0.mp4)
+[![Unsplash Scrapper Demo](./app_ui.png)](https://user-images.githubusercontent.com/59967380/214108512-037eef0b-873c-41b2-bc33-3be3b13f52e0.mp4)
 
 <br>
 
