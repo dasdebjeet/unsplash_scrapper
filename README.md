@@ -5,7 +5,7 @@
 Unsplash Scrapper using Selenium, check it out... 👇👇<br>
 Made in python, HTML, CSS, jquery, and ajax.
 
-Unsplash Scrapper is an application for web scrapping multiple number of high quality images from unsplash.
+Unsplash Scrapper is an application for web scrapping and downloading multiple number of high quality images from Unsplash.
 
 <br>
 <!-- Website: https://dasdebjeet.github.io -->
